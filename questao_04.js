@@ -29,6 +29,6 @@ let alunos = [
     new Aluno("Giovanna", "Karolline", 10, 9.9)
 ];
 for (let i = 0; i < 5; i++) {
-    alert("Nome completo: "+ alunos[i].nomeCompleto() + "Média" + alunos[i].media() + "Situação: " + alunos[i].situacao() )
+    alert("Nome completo: "+ alunos[i].nomeCompleto() + " Média: " + alunos[i].media() + " Situação: " + alunos[i].situacao() )
 }
 
